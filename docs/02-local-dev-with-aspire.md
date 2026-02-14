@@ -6,7 +6,7 @@ This guide walks you through running Icarus locally using .NET Aspire for orches
 
 | Requirement | Version | Notes |
 |-------------|---------|-------|
-| **.NET SDK** | 9.0+ | [Download](https://dotnet.microsoft.com/download) |
+| **.NET SDK** | 10.0+ | [Download](https://dotnet.microsoft.com/download) |
 | **Docker** | Latest | Required for infrastructure containers |
 | **Docker Compose** | v2+ | Usually bundled with Docker Desktop |
 | **Rust toolchain** | 1.70+ | For embeddings service (`rustup` recommended) |
@@ -14,7 +14,7 @@ This guide walks you through running Icarus locally using .NET Aspire for orches
 Verify installations:
 
 ```bash
-dotnet --version   # 9.0.x
+dotnet --version   # 10.0.x
 docker --version
 rustc --version
 ```
@@ -27,7 +27,7 @@ Icarus includes a DevContainer for consistent development environments:
 2. Install the **Dev Containers** extension
 3. Run **Dev Containers: Reopen in Container** from the command palette
 
-The DevContainer includes .NET 9, Docker, and Rust pre-installed.
+The DevContainer includes .NET 10, Docker, and Rust pre-installed.
 
 ## Running with Aspire
 

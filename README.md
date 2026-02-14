@@ -35,7 +35,7 @@ Icarus is a retrieval-augmented generation (RAG) platform designed for on-premis
 
 ### Prerequisites
 
-- [.NET 9 SDK](https://dotnet.microsoft.com/download)
+- [.NET 10 SDK](https://dotnet.microsoft.com/download)
 - [Docker](https://www.docker.com/get-started)
 - [Rust toolchain](https://rustup.rs/) (for embeddings service)
 - [Node.js 20+](https://nodejs.org/) (for E2E tests)
