@@ -1,0 +1,47 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+TestResults/
+
+## Rider
+.idea/
+
+## VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## Rust
+target/
+**/*.rs.bk
+Cargo.lock
+
+## Node
+node_modules/
+dist/
+test-results/
+playwright-report/
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Environment
+.env
+.env.*
+!.env.example
+
+## Aspire
+.aspire/
